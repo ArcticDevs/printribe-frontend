@@ -11,7 +11,7 @@
           title="BASIC"
           img-src="/ribbon.png"
           style="max-width: 20rem;background-color:#ef3e2e"
-          class="mb-2 border-0 col-md-4 col-sm-12"
+          class="mb-2 border-0 col-md-4 col-sm-12  mx-auto"
         >
           <b-card-text>
             Some quick example text to build on the card title and make up the
@@ -25,7 +25,7 @@
           title="PROFESSIONAL"
           img-src="/ribbon.png"
           style="max-width: 20rem;background-color:#29649d"
-          class="mb-2 border-0 col-md-4 col-sm-12"
+          class="mb-2 border-0 col-md-4 col-sm-12  mx-auto"
         >
           <b-card-text>
             Some quick example text to build on the card title and make up the
@@ -39,7 +39,7 @@
           title="ULTIMATE"
           img-src="/ribbon.png"
           style="max-width: 20rem;background-color:#fb8f27"
-          class="mb-2 border-0 col-md-4 col-sm-12"
+          class="mb-2 border-0 col-md-4 col-sm-12  mx-auto"
         >
           <b-card-text>
             Some quick example text to build on the card title and make up the

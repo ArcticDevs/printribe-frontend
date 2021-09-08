@@ -14,7 +14,7 @@
           img-top
           tag="article"
           style="max-width: 20rem;"
-          class="mb-2 border-0 col-md-4 col-sm-12"
+          class="mb-2 border-0 col-md-4 col-sm-12 mx-auto"
         >
           <b-card-text>
             Some quick example text to build on the card title and make up the
@@ -28,7 +28,7 @@
           img-top
           tag="article"
           style="max-width: 20rem;"
-          class="mb-2 border-0 col-md-4 col-sm-12"
+          class="mb-2 border-0 col-md-4 col-sm-12  mx-auto"
         >
           <b-card-text>
             Some quick example text to build on the card title and make up the
@@ -42,7 +42,7 @@
           img-top
           tag="article"
           style="max-width: 20rem;"
-          class="mb-2 border-0 col-md-4 col-sm-12"
+          class="mb-2 border-0 col-md-4 col-sm-12  mx-auto"
         >
           <b-card-text>
             Some quick example text to build on the card title and make up the

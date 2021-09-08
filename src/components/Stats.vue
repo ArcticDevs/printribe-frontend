@@ -7,16 +7,16 @@
         odio vitea vestibulum vestibulum
       </p>
       <div class="row text-white">
-        <div class="col-md-4 col-sm-12">
-          <h1>1200+</h1>
+        <div class="col-md-4 col-sm-12 ">
+          <h1 class="text-center">1200+</h1>
           <p>Text</p>
         </div>
         <div class="col-md-4 col-sm-12 ">
-          <h1>2000+</h1>
+          <h1 class="text-center">2000+</h1>
           <p>Active Menber</p>
         </div>
         <div class="col-md-4 col-sm-12">
-          <h1>100+</h1>
+          <h1 class="text-center">100+</h1>
           <p>Community</p>
         </div>
       </div>

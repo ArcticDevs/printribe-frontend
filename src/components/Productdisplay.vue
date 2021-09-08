@@ -5,7 +5,7 @@
         <img src="/Model1.png" class="ModelImage" />
       </div>
       <div class="col-md-6 col-sm-12 bgProduct1">
-        <div class="container-custom container">
+        <div class="container">
           <h1>Title</h1>
           <p>
             LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT. RATIO
@@ -21,7 +21,7 @@
     </div>
     <div class="row">
       <div class="col-md-6 col-sm-12 bgProduct2">
-        <div class="container-custom container">
+        <div class="container">
           <h1>Title</h1>
           <p>
             LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT. RATIO
@@ -46,17 +46,17 @@ export default {};
 </script>
 
 <style scroped>
-.container-custom {
-  margin: 50vh 30px 0 30px;
-  width: 700px;
+.container {
+  padding: 10vh 30px 20px 30px;
+
 }
-.container-custom h1 {
+.container h1 {
   font-weight: 600;
   font-size: 70px;
   color: #fff;
   text-align: left;
 }
-.container-custom p {
+.container p {
   color: #fff;
   text-align: left;
 }
