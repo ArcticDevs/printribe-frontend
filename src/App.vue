@@ -1,36 +1,12 @@
 <template>
   <div id="app">
-   <navbar />
-   <ProductCard />
-   <pricing />
-   <Productdisplay />
-   <Stats />
-   <subscribe />
-   <Footer />
+    <router-view> </router-view>
   </div>
 </template>
 <script>
 // @ is an alias to /src
-import navbar from '@/components/navBar.vue'
-import ProductCard from '@/components/ProductCard.vue'
-import pricing from '@/components/pricing.vue'
-import Productdisplay from '@/components/Productdisplay.vue'
-import Stats from '@/components/Stats.vue'
-import subscribe from '@/components/subscribe.vue'
-import Footer from '@/components/footer.vue'
-ProductCard
-export default {
-  name: 'Home',
-  components: {
-    navbar,
-    ProductCard,
-    pricing,
-    Productdisplay,
-    Stats,
-    subscribe,
-    Footer,
-  }
-}
+
+export default {};
 </script>
 
 

@@ -34,7 +34,7 @@ export default {};
 }
 h1 {
   font-weight: bolder;
-  font-size: 60px;
+  font-size: 3rem;
   color: #fff;
   margin-bottom: 30px;
 }
@@ -45,7 +45,7 @@ h1 {
 }
 .subHeading {
   color: #fff;
-  font-size: 30px;
+  font-size: 1.5rem;
   margin-bottom: 50px;
   margin-top: 20px;
 }

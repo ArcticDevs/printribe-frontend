@@ -27,71 +27,15 @@
         </b-navbar>
       </div>
     </div>
-    <div class="container-fluid p-0">
-      <carousel :items="1">
-        <div>
-          <img src="https://placeimg.com/1920/1080/any?4" class="carouselIMG" />
-          <div class="textPosition">
-            <h1 class="carouselTitle">Title Here</h1>
-            <p class="w-50 carouselText">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
-            </p>
-            <div class="btn carouselExplore ">Explore</div>
-          </div>
-        </div>
-
-        <div>
-          <img src="https://placeimg.com/1920/1080/any?3" class="carouselIMG" />
-          <div class="textPosition">
-            <h1 class="carouselTitle">Title Here</h1>
-            <p class="w-50 carouselText">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
-            </p>
-            <div class=" btn carouselExplore ">Explore</div>
-          </div>
-        </div>
-        <div>
-          <img src="https://placeimg.com/1920/1080/any?5" />
-          <div>
-            <h3>Heading 4.</h3>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
-            </p>
-          </div>
-        </div>
-      </carousel>
-    </div>
+    
   </div>
 </template>
 
 <script>
-import carousel from "vue-owl-carousel2";
 export default {
   name: "HelloWorld",
-  components: { carousel },
-  data() {
-    return {
-      slide: 0,
-      sliding: null,
-    };
-  },
-  methods: {
-    onSlideStart(slide) {
-      this.sliding = true;
-    },
-    onSlideEnd(slide) {
-      this.sliding = false;
-    },
-  },
+  
+  
 };
 </script>
 
