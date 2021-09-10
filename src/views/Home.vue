@@ -7,6 +7,7 @@
     <ProductCard />
     <Pricing />
     <Productdisplay />
+    <InformativeComponent />
     <Stats />
     <Subscribe />
     <Footer />
@@ -24,6 +25,8 @@ import Productdisplay from "@/components/Productdisplay.vue";
 import Stats from "@/components/Stats.vue";
 import Subscribe from "@/components/subscribe.vue";
 import Footer from "@/components/footer.vue";
+import InformativeComponent from "@/components/InformativeComponent.vue";
+InformativeComponent
 export default {
   name: "Home",
   components: {
@@ -35,6 +38,7 @@ export default {
     Stats,
     Subscribe,
     Footer,
+    InformativeComponent,
   },
 };
 </script>

@@ -1,7 +1,7 @@
 <template>
   <div class="container-fluid">
     <div class="container">
-      <h1>SUBSCRIBE</h1>
+      <h1 class="text-center">SUBSCRIBE</h1>
       <p class="subHeading">
         Lorem ipsum dolor sit amet, consecetur adipiscing elit . Vicamus lacinia
         odio vitea vestibulum vestibulum
@@ -31,6 +31,10 @@ export default {};
 <style scoped>
 .container-fluid {
   background-color: #231f20;
+  background-image: url(/dotsPattern.png), url(/dotsPatternBottomRight.png);
+
+  background-position: left top, right bottom;
+  background-repeat: no-repeat;
 }
 h1 {
   font-weight: bolder;
@@ -38,10 +42,10 @@ h1 {
   color: #fff;
   margin-bottom: 30px;
 }
-.container{
-   /* height: 600px; */
-   padding-top: 100px;
-   padding-bottom: 100px;
+.container {
+  /* height: 600px; */
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .subHeading {
   color: #fff;

@@ -4,7 +4,7 @@
       <div>
         <b-navbar toggleable="lg" class="navbar">
        
-            <img src="/favicon.jpg" class="Logo" />
+            <img src="/Printibe-logo1.png" class="Logo" />
          
 
           <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>

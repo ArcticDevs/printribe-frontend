@@ -1,7 +1,7 @@
 <template>
   <div class="container-fluid bgBlue">
     <div class="container">
-      <h1>PRICING</h1>
+      <h1 class="text-center">PRICING</h1>
       <p class="subHeading">
         Lorem ipsum dolor sit amet, consecetur adipiscing elit . Vicamus lacinia
         odio vitea vestibulum vestibulum
@@ -17,8 +17,8 @@
             Some quick example text to build on the card title and make up the
             bulk of the card's content.
           </b-card-text>
-            <div class="btn">
-              150$
+          <div class="btn">
+            150$
           </div>
         </b-card>
         <b-card
@@ -31,8 +31,8 @@
             Some quick example text to build on the card title and make up the
             bulk of the card's content.
           </b-card-text>
-            <div class="btn">
-              200$
+          <div class="btn">
+            200$
           </div>
         </b-card>
         <b-card
@@ -46,7 +46,7 @@
             bulk of the card's content.
           </b-card-text>
           <div class="btn">
-              250$
+            250$
           </div>
         </b-card>
       </div>
@@ -59,8 +59,6 @@ export default {};
 </script>
 
 <style scoped>
-
-
 h1 {
   font-weight: bolder;
   font-size: 60px;
@@ -71,25 +69,30 @@ h1 {
   font-size: 30px;
   margin-bottom: 50px;
   margin-top: 20px;
-  
+  text-align: center;
 }
-.btn{
-    background-color: #231f20;
-    color: #fdbf64;
-    width: 15rem;
+.btn {
+  background-color: #231f20;
+  color: #fdbf64;
+  width: 15rem;
 }
-.btn:hover{
-    color: #fff;
+.btn:hover {
+  color: #fff;
 }
 .card {
-   margin-right: 45px;
+  margin-right: 45px;
 }
 
-.card-body .card-title,.card-text {
+.card-body .card-title,
+.card-text {
   color: #ffffff;
 }
 .bgBlue {
   background-color: #231f20;
   padding: 50px 0 50px 0;
+  background-image: url(/dotsPattern.png), url(/dotsPatternBottomRight.png);
+
+  background-position: left top, right bottom;
+  background-repeat: no-repeat;
 }
 </style>

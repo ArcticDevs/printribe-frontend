@@ -1,10 +1,10 @@
 <template>
   <div class="container-fluid bgBlue">
     <div class="container">
-      <h1>Title</h1>
+      <h1  class="text-center">Title</h1>
       <p class="subHeading">
         Lorem ipsum dolor sit amet, consecetur adipiscing elit . Vicamus lacinia
-        odio vitea vestibulum vestibulum
+        odio vitea vestibulum vestibulum 
       </p>
       <div class="row">
         <b-card
@@ -63,14 +63,18 @@ h1 {
   font-weight: bolder;
   font-size: 60px;
   color: #fff;
+  text-align: center;
+
 }
 .subHeading {
   color: #fff;
   font-size: 30px;
   margin-bottom: 50px;
   margin-top: 20px;
-  
+  text-align: center;
+
 }
+
 .card {
   background-color: transparent !important;
   margin-right: 45px;
@@ -88,5 +92,7 @@ h4 {
 .bgBlue {
   background-color: #29649d;
   padding: 50px 0 50px 0;
+    background-image: url(/dotsPattern.png);
+  background-repeat: no-repeat;
 }
 </style>

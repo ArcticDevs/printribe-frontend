@@ -1,7 +1,7 @@
 <template>
   <div class="container-fluid">
-    <div class="container">
-      <h1>TITLE</h1>
+    <div class="container ">
+      <h1 class="text-center">TITLE</h1>
       <p class="subHeading">
         Lorem ipsum dolor sit amet, consecetur adipiscing elit . Vicamus lacinia
         odio vitea vestibulum vestibulum
@@ -47,9 +47,14 @@ h1 {
   font-size: 20px;
   margin-bottom: 50px;
   margin-top: 20px;
+  text-align: center;
 }
 .container-fluid {
   background-color: #231f20;
+      background-image: url(/dotsPattern.png), url(/dotsPatternBottomRight.png);
+   
+  background-position:  right bottom, left top;
+  background-repeat: no-repeat;
 }
 .container{
    /* height: 600px; */
