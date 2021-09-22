@@ -9,7 +9,7 @@
       <div class="row">
         <b-card
           title="BASIC"
-          img-src="/ribbon.png"
+          img-src="/img/ribbon.png"
           style="max-width: 20rem;background-color:#ef3e2e"
           class="mb-2 border-0 col-md-4 col-sm-12  mx-auto"
         >
@@ -23,7 +23,7 @@
         </b-card>
         <b-card
           title="PROFESSIONAL"
-          img-src="/ribbon.png"
+          img-src="/img/ribbon.png"
           style="max-width: 20rem;background-color:#29649d"
           class="mb-2 border-0 col-md-4 col-sm-12  mx-auto"
         >
@@ -37,7 +37,7 @@
         </b-card>
         <b-card
           title="ULTIMATE"
-          img-src="/ribbon.png"
+          img-src="/img/ribbon.png"
           style="max-width: 20rem;background-color:#fb8f27"
           class="mb-2 border-0 col-md-4 col-sm-12  mx-auto"
         >
@@ -90,7 +90,7 @@ h1 {
 .bgBlue {
   background-color: #231f20;
   padding: 50px 0 50px 0;
-  background-image: url(/dotsPattern.png), url(/dotsPatternBottomRight.png);
+  background-image: url(/img/dotsPattern.png), url(/img/dotsPatternBottomRight.png);
 
   background-position: left top, right bottom;
   background-repeat: no-repeat;

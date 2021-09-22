@@ -4,7 +4,7 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-12 col-md-3">
-          <img src="/Printibe-logo1.png" class="FooterLogo" />
+          <img src="/img/Printibe-logo1.png" class="FooterLogo" />
           <p class="text-left">
             Some quick example text to build on the card title and make up the
             bulk of the card's content.

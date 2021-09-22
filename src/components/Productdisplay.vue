@@ -2,7 +2,7 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-6 col-sm-12 p-0">
-        <img src="/3.jpg" class="ModelImage" />
+        <img src="/img/664.png" class="ModelImage" />
       </div>
       <div class="col-md-6 col-sm-12 bgProduct1">
         <div class="bgImage">
@@ -14,7 +14,7 @@
               IN SALEBRA. GRACCHO, EIUS FERE, AEQUALí? QUORUM ALTERA PROSUNT,
               NOCENT ALTERA. IDEMNE, QUOD IUCUNDE?
             </p>
-            <div class="btn1">
+            <div class="orderBtn">
               ORDER NOW
             </div>
           </div>
@@ -31,13 +31,13 @@
             SALEBRA. GRACCHO, EIUS FERE, AEQUALí? QUORUM ALTERA PROSUNT, NOCENT
             ALTERA. IDEMNE, QUOD IUCUNDE?
           </p>
-          <div class="btn1">
+          <div class="orderBtn">
             START SELLING
           </div>
         </div>
       </div>
       <div class="col-md-6 col-sm-12 p-0">
-        <img src="/2.jpg" class="ModelImage" />
+        <img src="/img/665.png" class="ModelImage" />
       </div>
     </div>
   </div>
@@ -62,32 +62,35 @@ export default {};
   text-align: left;
 }
 
-.btn1 {
+.orderBtn {
   background-color: #231f20;
   color: #fff;
   width: 20rem;
   padding: 20px;
   font-size: 25px;
   margin-top: 30px;
+  filter:drop-shadow(0 2px 5px rgb(107, 107, 107));
+  border-radius:10px;
 }
-.btn1:hover {
+.orderBtn:hover {
   color: #fff;
   cursor: pointer;
 }
 .ModelImage {
   object-fit: cover;
   width: 100%;
+  background:#000;
 }
 .bgProduct1 {
   background-color: #fb8f27;
-  background-image: url(/dotsPattern.png), url(/dotsPatternBottomRight.png);
+  background-image: url(/img/dotsPattern.png), url(/img/dotsPatternBottomRight.png);
    
   background-position: left top, right bottom;
   background-repeat: no-repeat;
 }
 .bgProduct2 {
   background-color: #ef3e2e;
-    background-image:  url(/dotsPatternBottomLeft.png);
+    background-image:  url(/img/dotsPatternBottomLeft.png);
    
   background-position: right bottom;
   background-repeat: no-repeat;
@@ -129,7 +132,7 @@ export default {};
     margin: 4vh 50px 30px 50px;
     width: 700px;
   }
-  .btn1 {
+  .orderBtn {
     background-color: #231f20;
     color: #fff;
     width: 15rem;

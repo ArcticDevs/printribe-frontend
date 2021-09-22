@@ -15,9 +15,7 @@
             id="useremail-id"
             placeholder="Enter your email"
           />
-          <button type="submit" id="subscribe">
-            Subscribe
-          </button>
+          <button type="submit" id="subscribe">Subscribe</button>
         </form>
       </div>
     </div>
@@ -31,8 +29,8 @@ export default {};
 <style scoped>
 .container-fluid {
   background-color: #231f20;
-  background-image: url(/dotsPattern.png), url(/dotsPatternBottomRight.png);
-
+  background-image: url(/img/dotsPattern.png),
+    url(/img/dotsPatternBottomRight.png);
   background-position: left top, right bottom;
   background-repeat: no-repeat;
 }
@@ -43,7 +41,6 @@ h1 {
   margin-bottom: 30px;
 }
 .container {
-  /* height: 600px; */
   padding-top: 100px;
   padding-bottom: 100px;
 }

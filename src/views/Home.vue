@@ -7,8 +7,8 @@
     <ProductCard />
     <Pricing />
     <Productdisplay />
-    <InformativeComponent />
     <Stats />
+    <InformativeComponent />
     <Subscribe />
     <Footer />
   </div>

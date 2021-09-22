@@ -51,7 +51,7 @@ h1 {
 }
 .container-fluid {
   background-color: #231f20;
-      background-image: url(/dotsPattern.png), url(/dotsPatternBottomRight.png);
+      background-image: url(/img/dotsPattern.png), url(/img/dotsPatternBottomRight.png);
    
   background-position:  right bottom, left top;
   background-repeat: no-repeat;
