@@ -1,11 +1,15 @@
 <template>
   <!-- Site footer -->
   <footer class="site-footer">
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
-        <div class="col-sm-12 col-md-3">
+        <div class="col-sm-12 col-md-5">
           <img src="/img/Printibe-logo1.png" class="FooterLogo" />
           <p class="text-left">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
             Some quick example text to build on the card title and make up the
             bulk of the card's content.
           </p>
@@ -38,8 +42,7 @@
             <li></li>
           </ul>
         </div>
-
-        <div class="col-xs-6 col-md-3">
+        <div class="col-xs-6 col-md-2 ml-sm-5">
           <h6>ABOUT</h6>
           <ul class="footer-links">
             <li>History</li>
@@ -49,7 +52,7 @@
             <li>Privacy Policy</li>
           </ul>
         </div>
-        <div class="col-xs-6 col-md-3">
+        <div class="col-xs-6 col-md-2">
           <h6>SERVICES</h6>
           <ul class="footer-links">
             <li>How to Order</li>
@@ -59,7 +62,7 @@
             <li>Payment Methods</li>
           </ul>
         </div>
-        <div class="col-xs-6 col-md-3">
+        <div class="col-xs-6 col-md-2">
           <h6>OTHER</h6>
           <ul class="footer-links">
             <li>About Us</li>
@@ -79,16 +82,26 @@ export default {};
 
 <style scoped>
 .FooterLogo{
-    width: 50%;
-    left: 0 !important;
-    margin:0 0 10px -100px ;
+    max-width: 80%;
+    height:40px;
+    margin-bottom:10px;
 }
+
+h6{
+  font-weight:bolder;
+}
+
+li{
+  line-height:1.5rem;
+  margin-bottom:5px;
+}
+
 .site-footer {
   background-color: #26272b;
   padding: 45px 0 20px;
   font-size: 15px;
   line-height: 24px;
-  color: #737373;
+  color: #dfdfdf;
 }
 .site-footer hr {
   border-top-color: #bbb;

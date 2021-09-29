@@ -36,7 +36,7 @@ export default {};
 }
 h1 {
   font-weight: bolder;
-  font-size: 3rem;
+  font-size:3.4.5vmax;
   color: #fff;
   margin-bottom: 30px;
 }
@@ -46,7 +46,8 @@ h1 {
 }
 .subHeading {
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  text-align:center;
   margin-bottom: 50px;
   margin-top: 20px;
 }
@@ -67,20 +68,23 @@ header h1 {
 
 button {
   height: 65px;
-  width: 100%;
+  width: 80%;
   max-width: 445px;
-  font-size: 16px;
-  padding: 20px;
-  line-height: 0;
+  font-size: 1.2rem;
+  /* padding: 20px; */
+  /* line-height: 0; */
   vertical-align: top;
   cursor: pointer;
   color: #fff;
   border: 0;
-  border-radius: 0px 5px 5px 0px;
+  border-radius: 0 10px 10px 0;
+  height:60px;
+  margin-left:-10px;
+  z-index:10;
   background: #29649d;
 }
 button:hover {
-  background: #29649d;
+  /* background: #29649d; */
   box-shadow: 0 4px 10px hsl(34 100% 56% / 0.2);
 }
 form {
@@ -88,7 +92,7 @@ form {
 }
 input {
   min-width: 400px;
-  height: 65px;
+  height: 60px;
   width: 100%;
   border-radius: 5px 0 0 5px;
   background: #fff !important;

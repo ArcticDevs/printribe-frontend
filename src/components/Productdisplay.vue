@@ -1,42 +1,58 @@
 <template>
   <div class="container-fluid">
     <div class="row">
-      <div class="col-md-6 col-sm-12 p-0">
+      <div class="col-sm-6 col-12 p-0">
         <img src="/img/664.png" class="ModelImage" />
       </div>
-      <div class="col-md-6 col-sm-12 bgProduct1">
-        <div class="bgImage">
-          <div class="container">
-            <h1>Title</h1>
-            <p>
-              LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT. RATIO
-              QUIDEM VESTRA SIC COGIT. DUO REGES: CONSTRUCTIO INTERRETE. HAERET
-              IN SALEBRA. GRACCHO, EIUS FERE, AEQUALí? QUORUM ALTERA PROSUNT,
-              NOCENT ALTERA. IDEMNE, QUOD IUCUNDE?
-            </p>
-            <div class="orderBtn">
-              ORDER NOW
-            </div>
-          </div>
+      <div
+        class="
+          col-sm-6 col-12
+          bgProduct1
+          px-sm-5
+          py-5
+          d-flex
+          flex-column
+          align-items-center
+          justify-content-center
+        "
+      >
+        <h1>Title</h1>
+        <p>
+          LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT. RATIO QUIDEM
+          VESTRA SIC COGIT. DUO REGES: CONSTRUCTIO INTERRETE. HAERET IN SALEBRA.
+          GRACCHO, EIUS FERE, AEQUALí? QUORUM ALTERA PROSUNT, NOCENT ALTERA.
+          IDEMNE, QUOD IUCUNDE?
+        </p>
+        <div class="w-100 text-center">
+          <div class="orderBtn">ORDER NOW</div>
         </div>
       </div>
     </div>
     <div class="row">
-      <div class="col-md-6 col-sm-12 bgProduct2">
-        <div class="container">
-          <h1>Title</h1>
-          <p>
-            LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT. RATIO
-            QUIDEM VESTRA SIC COGIT. DUO REGES: CONSTRUCTIO INTERRETE. HAERET IN
-            SALEBRA. GRACCHO, EIUS FERE, AEQUALí? QUORUM ALTERA PROSUNT, NOCENT
-            ALTERA. IDEMNE, QUOD IUCUNDE?
-          </p>
-          <div class="orderBtn">
-            START SELLING
-          </div>
+      <div
+        class="
+          col-sm-6 col-12
+          bgProduct2
+          px-sm-5
+          py-5
+          d-flex
+          flex-column
+          align-items-center
+          justify-content-center
+        "
+      >
+        <h1>Title</h1>
+        <p>
+          LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT. RATIO QUIDEM
+          VESTRA SIC COGIT. DUO REGES: CONSTRUCTIO INTERRETE. HAERET IN SALEBRA.
+          GRACCHO, EIUS FERE, AEQUALí? QUORUM ALTERA PROSUNT, NOCENT ALTERA.
+          IDEMNE, QUOD IUCUNDE?
+        </p>
+        <div class="w-100 text-center">
+          <div class="orderBtn">START SELLING</div>
         </div>
       </div>
-      <div class="col-md-6 col-sm-12 p-0">
+      <div class="col-sm-6 col-12 p-0">
         <img src="/img/665.png" class="ModelImage" />
       </div>
     </div>
@@ -51,13 +67,13 @@ export default {};
 .container {
   padding: 20vh 30px 20px 30px;
 }
-.container h1 {
+h1 {
   font-weight: 600;
-  font-size: 70px;
+  font-size: 3.4.5vmax;
   color: #fff;
   text-align: left;
 }
-.container p {
+p {
   color: #fff;
   text-align: left;
 }
@@ -65,12 +81,12 @@ export default {};
 .orderBtn {
   background-color: #231f20;
   color: #fff;
-  width: 20rem;
-  padding: 20px;
-  font-size: 25px;
+  width: 17rem;
+  max-width: 100%;
+  padding: 15px;
   margin-top: 30px;
-  filter:drop-shadow(0 2px 5px rgb(107, 107, 107));
-  border-radius:10px;
+  filter: drop-shadow(0 2px 5px rgb(107, 107, 107));
+  border-radius: 10px;
 }
 .orderBtn:hover {
   color: #fff;
@@ -79,59 +95,26 @@ export default {};
 .ModelImage {
   object-fit: cover;
   width: 100%;
-  background:#000;
+  /* height: 100%; */
+  background: #000;
 }
 .bgProduct1 {
   background-color: #fb8f27;
-  background-image: url(/img/dotsPattern.png), url(/img/dotsPatternBottomRight.png);
-   
+  background-image: url(/img/dotsPattern.png),
+    url(/img/dotsPatternBottomRight.png);
+
   background-position: left top, right bottom;
   background-repeat: no-repeat;
 }
 .bgProduct2 {
   background-color: #ef3e2e;
-    background-image:  url(/img/dotsPatternBottomLeft.png);
-   
+  background-image: url(/img/dotsPatternBottomLeft.png);
+
   background-position: right bottom;
   background-repeat: no-repeat;
 }
 
-@media (max-width: 1451px) {
-  .container-custom {
-    margin: 40vh 30px 0 30px;
-    width: 700px;
-  }
-}
-@media (max-width: 1290px) {
-  .container-custom {
-    margin: 30vh 50px 0 50px;
-    width: 700px;
-  }
-}
-@media (max-width: 1059px) {
-  .container-custom {
-    margin: 20vh 50px 0 50px;
-    width: 700px;
-  }
-}
-
-@media (max-width: 1024px) {
-  .container-custom {
-    margin: 12vh 50px 0 50px;
-    width: 700px;
-  }
-}
-@media (max-width: 768px) {
-  .container-custom {
-    margin: 8vh 50px 0 50px;
-    width: 700px;
-  }
-}
 @media (max-width: 414px) {
-  .container-custom {
-    margin: 4vh 50px 30px 50px;
-    width: 700px;
-  }
   .orderBtn {
     background-color: #231f20;
     color: #fff;
@@ -142,10 +125,9 @@ export default {};
   }
 }
 
-@media (max-width: 320px) {
-  .container-custom {
-    margin: 2vh 50px 30px 50px;
-    width: 700px;
+@media(min-width:1540px){
+  h1{
+    font-size:4vmax;
   }
 }
 </style>

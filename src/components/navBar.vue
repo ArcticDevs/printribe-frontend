@@ -2,10 +2,8 @@
   <div>
     <div id="nav">
       <div>
-        <b-navbar toggleable="lg" class="navbar">
-       
-            <img src="/img/Printibe-logo1.png" class="Logo" />
-         
+        <b-navbar toggleable="lg" type="dark" class="navbar">
+          <img src="/img/Printibe-logo1.png" class="Logo" />
 
           <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
@@ -13,79 +11,65 @@
             <!-- Right aligned nav items -->
 
             <b-navbar-nav class="ml-auto">
-              <b-nav-item href="#">Home</b-nav-item>
-
-              <b-nav-item href="#">Sign Up</b-nav-item>
-              <b-nav-item href="#">Sign In</b-nav-item>
-              <b-nav-item href="#">Dropship Terms</b-nav-item>
-              <b-nav-item href="#">Cart</b-nav-item>
+              <!-- <b-nav-item href="#">Sign Up</b-nav-item>
+              <b-nav-item href="#">Sign In</b-nav-item> -->
               <b-nav-item href="#">
                 <b-icon icon="search" aria-hidden="false"> </b-icon
               ></b-nav-item>
+              <b-nav-item href="#">Dropship Terms</b-nav-item>
+              <b-nav-item href="#">Cart</b-nav-item>
+              <b-nav-item href="#">Contact Us</b-nav-item>
+              <b-nav-item-dropdown right>
+                <!-- Using 'button-content' slot -->
+                <template #button-content>
+                  <li class="text-white">User</li>
+                </template>
+                <b-dropdown-item href="#">Sign In</b-dropdown-item>
+                <b-dropdown-item href="#">Sign Up</b-dropdown-item>
+              </b-nav-item-dropdown>
             </b-navbar-nav>
           </b-collapse>
         </b-navbar>
       </div>
     </div>
-    
   </div>
 </template>
 
 <script>
 export default {
   name: "HelloWorld",
-  
-  
 };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.carousel-caption {
-  min-width: 100% !important;
-  background-color: black !important;
-}
-.carouselText {
-  color: #fff;
-  font-size: 25px;
-  margin-left: 25px;
-}
-.carouselExplore {
-  padding: 15px;
-  width: 400px;
-  margin-left: 25px;
-  font-size: 25px;
-  background-color: #ef3e2e;
-  color: #fff;
-  font-weight: 600;
-}
-.textPosition {
-  position: relative;
-  top: 50vh;
-  text-align: left;
-  margin-left: 25px;
-}
-.carouselIMG {
-  position: absolute;
-  width: 100%;
-}
-.carouselTitle {
-  font-weight: bolder;
-  font-size: 130px;
-  color: #fff;
-}
-.Logo {
-  width: 20%;
-  left: 0 !important;
-}
 .navbar {
   background-color: #231f20;
+  /* height: 80px; */
+  z-index:999;
 }
+
+.Logo {
+  height: 35px;
+}
+
 .nav-link {
   color: #fff !important;
-  font-size: 20px;
   margin: 0 10px 0 10px;
 }
+
+@media(max-width:992px){
+  .navbar-collapse{
+  background-color: #231F20;
+  margin-top:30px;
+  position:fixed;
+  left:0;
+  width:100%;
+  top:20px;
+  padding:20px;
+}
+}
+
 
 h3 {
   margin: 40px 0 0;
@@ -97,8 +81,16 @@ ul {
 li {
   display: inline-block;
   margin: 0 10px;
+  font-size: 20px;
+
 }
-a {
-  color: #42b983;
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus,
+.navbar-nav .nav-link:active,
+.navbar-nav .nav-link:after
+ {
+  outline: 0;
+  border:none;
 }
 </style>

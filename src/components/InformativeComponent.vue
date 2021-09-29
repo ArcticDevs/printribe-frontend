@@ -34,7 +34,7 @@ export default {};
 
 .subHeading {
   color: #fff;
-  font-size: 2rem;
+  font-size: 1.2rem;
   margin-bottom: 50px;
   margin-top: 20px;
   display: inline-block;
@@ -45,8 +45,6 @@ export default {};
 .CustomContainer {
   height: 100vh;
   width: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
   position: relative;
 }
 
@@ -54,6 +52,8 @@ export default {};
   width: 100%;
   height: 100%;
   background-image: url("/img/1285.jpg");
+    background-repeat: no-repeat;
+  background-size: cover;
   filter: sepia(100%) hue-rotate(190deg) saturate(400%) brightness(0.4);
   position: absolute;
   top: 0;

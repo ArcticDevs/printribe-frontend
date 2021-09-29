@@ -1,11 +1,10 @@
 <template>
   <div class="home">
     <Navbar />
-    <div class="carouselContainer">
     <Carousel/>
-    </div>
     <ProductCard />
     <Pricing />
+    <HowItWorks />
     <Productdisplay />
     <Stats />
     <InformativeComponent />
@@ -16,11 +15,11 @@
 
 <script>
 // @ is an alias to /src
-// import HelloWorld from '@/components/HelloWorld.vue'
 import Navbar from "@/components/navBar.vue";
 import Carousel from "@/components/HomeMainCarousel.vue";
 import ProductCard from "@/components/ProductCard.vue";
 import Pricing from "@/components/pricing.vue";
+import HowItWorks from "@/components/HowItWorks.vue";
 import Productdisplay from "@/components/Productdisplay.vue";
 import Stats from "@/components/Stats.vue";
 import Subscribe from "@/components/subscribe.vue";
@@ -34,6 +33,7 @@ export default {
     Carousel,
     ProductCard,
     Pricing,
+    HowItWorks,
     Productdisplay,
     Stats,
     Subscribe,
@@ -43,10 +43,3 @@ export default {
 };
 </script>
 
-
-<style scoped>
-.carouselContainer{
-  height: calc(100vh - 60px);
-  overflow: hidden;
-}
-</style>

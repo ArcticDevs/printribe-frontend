@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="carouselContainer">
     <div class="container-fluid p-0">
       <carousel :items="1" :loop="true" :nav="false" :dots="false">
         <div
@@ -13,7 +13,9 @@
             <p class="mr-5 carouselText">
               {{ item.text }}
             </p>
-            <div class="btn carouselExplore">Explore</div>
+            <div class="btn carouselExplore" v-if="item.text.length">
+              Explore
+            </div>
           </div>
         </div>
       </carousel>
@@ -33,8 +35,8 @@ export default {
       carouselItems: [
         {
           img: "/img/1285.jpg",
-          title: "Title Here",
-          text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          title: "What’s Printribe?",
+          text: "A one stop destination to let your ideas come alive! Whether you are an artist who loves to design or someone who runs a business which sells creative products, we are what you need to elevate your business to a whole new level. We trust your idea, you got to trust us to showcase it. Let the limelight be on you & the grind on us!",
         },
         {
           img: "/img/1284.jpg",
@@ -61,6 +63,10 @@ export default {
 </script>
 
 <style scoped>
+.carouselContainer {
+  height: calc(100vh - 60px);
+  overflow: hidden;
+}
 .slideContainer {
   position: relative;
   height: calc(100vh - 60px);
@@ -71,10 +77,10 @@ export default {
 }
 .carouselText {
   color: #fff;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   margin-left: 5vw;
   filter: drop-shadow(0 0 5px #000);
-  width: 50%;
+  width: 60%;
 }
 .carouselExplore {
   padding: 15px;
@@ -100,15 +106,21 @@ export default {
 }
 .carouselTitle {
   font-weight: bolder;
-  font-size: 7vmax;
+  font-size: 4.5vmax;
   color: #fff;
   margin-left: 5vw;
   filter: drop-shadow(0 0 5px #000);
 }
 @media (max-width: 768px) {
   .carouselText {
-    font-size: 1rem;
+    font-size: 0.9rem;
     width: 80%;
+  }
+}
+
+@media (min-width: 1540px) {
+  .carouselText {
+    font-size: 1.5rem;
   }
 }
 </style>

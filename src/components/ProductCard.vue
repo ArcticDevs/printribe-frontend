@@ -55,13 +55,13 @@ export default {
 <style scoped>
 h1 {
   font-weight: bolder;
-  font-size: 60px;
+  font-size: 3.4.5vmax;
   color: #fff;
   text-align: center;
 }
 .subHeading {
   color: #fff;
-  font-size: 30px;
+  font-size: 1.2rem;
   margin-bottom: 50px;
   margin-top: 20px;
   text-align: center;
